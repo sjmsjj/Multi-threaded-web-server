@@ -1,3 +1,5 @@
+//By Jianming Sang
+//basic socket based echo client and server communication
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
