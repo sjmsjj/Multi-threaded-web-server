@@ -1,3 +1,5 @@
+//By Jianming Sang
+
 #include <stdlib.h>
 #include <fcntl.h>
 #include <curl/curl.h>
