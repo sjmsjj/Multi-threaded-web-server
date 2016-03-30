@@ -1,3 +1,5 @@
+//By Jianming Sang
+
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>
