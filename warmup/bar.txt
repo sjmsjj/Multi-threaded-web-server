@@ -1,0 +1,14 @@
+up vote
+4
+down vote
+I am not an expert in network so I will comment on the part that doesn't interest you that much. On top of that, your code is pretty clean, well documented and seemed to work properly when I tried it locally so there is not too much to say.
+
+You should try to avoid magic numbers to keep things maintainable and any other kind of hardcoded data in the middle of the code.
+
+You could put server and client in the same file in different methods.
+
+You have unused variable. An easy way to notice it is to try to put declaration as late as possible, in the smallest possible scope and as close to their first use as possible. Also, compiler warnings might help you.
+
+I am not sure you are cleaning ressources (files for instance) properly. This needs a lot of re-writing to do this properly so I'll leave this for you.
+
+After a bit of tweaking here and there, here is the code I have on my side:
